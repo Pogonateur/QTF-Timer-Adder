@@ -68,7 +68,7 @@ namespace QTF_Timer_Adder
             }
 
             secResult += secE1 + secE2;
-            if (secResult/60.0>=1)
+            if (secResult-59>=1)
             {
                 secResult -= 60;
                 minResult += 1;
