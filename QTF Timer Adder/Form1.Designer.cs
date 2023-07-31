@@ -29,6 +29,7 @@ namespace QTF_Timer_Adder
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.entry1 = new System.Windows.Forms.TextBox();
             this.entry2 = new System.Windows.Forms.TextBox();
             this.result = new System.Windows.Forms.TextBox();
@@ -111,6 +112,7 @@ namespace QTF_Timer_Adder
             this.Controls.Add(this.result);
             this.Controls.Add(this.entry2);
             this.Controls.Add(this.entry1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "QTF Timer Adder";
             this.ResumeLayout(false);
